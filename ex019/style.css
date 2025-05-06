@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+body{background-color: #79D359;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+}
+h1#principal{
+    color: #60aa45;
+    text-align: center;
+    background-color: #152510;
+}
+
+h1{color: #528F3C;}
+
+h2{color: #66B14A;}
+
+.basico{color:#B3DB5C;
+background-color: #152510;
+text-align: center;
+}
+.intermediario{color:#DBD75C ;
+background-color: #152510;
+text-align: center;}
+
+.avancado{color:#7EDB5C ;
+background-color: #152510;
+text-align: center;
+font-weight:bolder;}
+
+
+
+.destaque{
+
+    background-color:rgba(224, 224, 26, 0.753) ;
+}
+
+
+
+
+
+
+

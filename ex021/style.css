@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+
+body{
+font-family: 'Courier New', Courier, monospace;
+background-color:#5CA4DB ;
+}
+
+header{
+background-color: white;
+width: 600px;
+padding: 10px;
+margin: 10px;
+
+}
+
+
+main{
+padding: 5px 10px 13px 10px;
+margin:10px 10px 10px 10px;
+background-color: white;
+border-radius: 24px 24px 7px 7px;
+}
+
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+box-shadow: 2px 3px 4px #625dad78;
+padding: 4px;
+margin-top: 0px;}
+
+footer>p{
+    margin: 0px;
+}
+
+article>aside{
+    background-color: #9cb5ff;
+}
+
+article{
+    background-color:#5C7CDB ;
+}
+
+nav{
+background-color:#625dad ;
+padding: 3px;
+box-shadow: 2px 3px 4px #625dad78;
+}
+
+nav > a{
+text-decoration: none;
+display: none;
+}
+nav:hover > a{
+    display: block;
+    background-color: #625dad;
+}
+section{
+    margin-bottom: -15.5px;
+    box-shadow: 2px 3px 4px #625dad78;
+    border-radius: 24px 24px 7px 7px;
+}
+
+p#menu::after{content: '♦';
+margin: 4px;
+font-size:large;
+margin-top: 30px;
+}
+
+a:active{color: limegreen;
+    text-decoration: underline;}
+
+a::after{content: '←';
+margin: 4px;
+font-size: xx-large;}
+
+div#bola{
+height: 100px;
+width: 100px;
+margin:  30px 30px 30px 261px;
+
+background-color: black;
+border-radius: 50px;
+}
+
+
+
+

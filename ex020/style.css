@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+div{background-color: silver;
+    display: inline-block;
+text-align: center;
+border:1px solid black ;
+height: 200px;
+width: 200px;
+}
+div:hover{
+    background-color: green;
+}
+/*div#d1{}
+div#d2{}
+div#d3{}*/
+
+
+

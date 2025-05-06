@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face{
+font-family: 'Love';
+src: url('fonte/love story ttf.ttf') format(truetype);
+font-weight: normal;
+font-style: normal;
+}
+@font-face{font-family: 'Card';
+src: url('fonte/CARDS.TTF') format(truetype);
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{font-family: 'Good';
+    src: url('fonte/Good Brush.otf') format(opentype), url(fonte/Good\ Brush.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;}
+
+
+body{
+    background-image: linear-gradient(to right,#5B8351,#313C2F);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow:3px 3px 8px #313C2F;}
+
+h2{ font-family: 'Love';
+    color: #50BB36;}
+
+h1{font-family:'Love';
+    font-weight: normal;
+ color: #519142;}
+
+p{font-family:'Good';
+ text-align: justify;}
